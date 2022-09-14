@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVOS Michaël</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/14 favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>DEVOS Michaël</h1>
+        <h2>Apprenti développeur chez APformation.</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="cv.html">Curriculum Vitae</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div class="wrapper">
+        <aside>
+            <article>
+                <img src="img/PXL_20220908_064737670.MP (1).jpg" alt="portrait du cv">
+                <h3 class="title">INFORMATIONS</h3>
+                <UL>
+                    <li>Nom : DEVOS</li>
+                    <li>Prénom : Michaël</li>
+                    <li>Née le 20/02/1978</li>
+                    <li>Situation de famille : Pacsé</li>
+                    <li>Nombre d'enfants : 2</li>
+                    <li>Titulaire des permis A et B</li>
+                </UL>
+            </article>
+            <article>
+                <h3 class="title">MES ATOUTS</h3>
+                <div class="atouts">
+                    <P>Bonne humeur: <span>300%</span></P>
+                    <progress value="100" max="100"></progress>
+
+                    <P>Adaptation: <span>100%</span></P>
+                    <progress value="100" max="100"></progress>
+
+                    <P>Curiosité: <span>80%</span></P>
+                    <progress value="80" max="100"></progress>
+
+                    <P>Polyvalence: <span>90%</span></P>
+                    <progress value="90" max="100"></progress>
+
+                    <P>Créativité: <span>95%</span></P>
+                    <progress value="95" max="100"></progress>
+
+                    <P>Sens du détail: <span>99.99%</span></P>
+                    <progress value="99" max="100"></progress>
+                </div>   
+                <br>
+            </article>
+        </aside>
+        
+        <div class="contact">
+
+            <h1 class="title">ME CONTACTER</h1>
+            <br>
+            <form action="#">
+
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" placeholder="Renseigner votre nom">
+
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" placeholder="Renseigner votre prenom">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Renseigner votre email" required>
+
+                <label for="msg">Votre message</label>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Renseigner votre message" required></textarea>
+                
+                <p>* Champs requis</p>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2022 - DEVOS Michaël - Tous droits réservés.</p>
+    </footer>
+
+    
+</body>
+</html>
